@@ -20,4 +20,7 @@ func main() {
 	fmt.Println(b2)
 	fmt.Println(c2)
 	fmt.Println(d2)
+
+	a3 := a2 * c2
+	fmt.Println(a3)
 }
