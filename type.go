@@ -6,12 +6,14 @@ func main() {
 	a := 3
 	var b float64 = 3.5
 
-	var c int = b
-	d := a * b
+	var c int = int(b)
+	d := a * c
 
 	var e int64 = 7
-	f := a * e
+	f := int64(a) * e
 
-	fmt.Println(a, d, f)
+	g := b * float64(a)
+
+	fmt.Println(a, d, f, g)
 
 }
